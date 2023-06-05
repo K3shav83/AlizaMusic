@@ -1,7 +1,7 @@
 from typing import Union
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-from SankiMusic.utilities.config import config
+from AlizaMusic.utilities.config import config
 
 
 def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
@@ -44,7 +44,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✮ sᴏᴜʀᴄᴇ ✮", url="https://github.com/XdityaHalder/SankiMusic"
+                text="✮ sᴏᴜʀᴄᴇ ✮", url="https://t.me/indiaxchats"
             )
         ]
      ]
